@@ -1,0 +1,65 @@
+#headerBackground {
+    height: 40vw;
+    background-image: url(firstPagePhotos/headingForrest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#exampleBox{
+    height: 100vh;
+}
+
+#leftTopImage{
+    height: 66%;
+    background-image: url("firstPagePhotos/leftTop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#leftBottomImage{
+    height: 34%;
+    background-image: url("firstPagePhotos/leftBottom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#middleTopImage{
+    height: 49%;
+    background-image: url("firstPagePhotos/middleTop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#middleBottomImage{
+    height: 51%;
+    background-image: url("firstPagePhotos/middleBottom.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#rightTopImage{
+    height: 62%;
+    background-image: url("firstPagePhotos/rightTop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#rightBottomImage{
+    height: 38%;
+    background-image: url("firstPagePhotos/rightBottom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#footerContainer{
+    background-color: black;
+}
+
+#aboutBox{
+    height: 30vh;
+    background-color: black;
+}
+
+#footerBox{
+    height: 4vh;
+}
