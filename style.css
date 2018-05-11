@@ -1,65 +1,182 @@
+/*Header, Nav, and logo*/
+body{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 100vw;
+    background-color: rgb(225, 159, 159);
+    margin: 0px;
+    padding: 0px;
+}
+
 #headerBackground {
-    height: 40vw;
-    background-image: url(firstPagePhotos/headingForrest.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    background-color: aqua;
 }
 
-#exampleBox{
-    height: 100vh;
+#headerLogo {
+    position: absolute;
+    top: 95px;
+    width: 100%;
+    height: 150px;
+    background-color: blueviolet;
 }
 
-#leftTopImage{
-    height: 66%;
-    background-image: url("firstPagePhotos/leftTop.jpg");
-    background-size: cover;
-    background-repeat: no-repeat
+#headerNav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 280px;
 }
 
-#leftBottomImage{
-    height: 34%;
-    background-image: url("firstPagePhotos/leftBottom.jpg");
-    background-size: cover;
-    background-repeat: no-repeat
+#headerNavItems {
+    width: 548px;
+    background-color: transparent;
+    height: 60px;
+    list-style: none;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: red;
 }
 
-#middleTopImage{
-    height: 49%;
-    background-image: url("firstPagePhotos/middleTop.jpg");
-    background-size: cover;
-    background-repeat: no-repeat
+.headerNavButtons {
+    float: left;
+    margin-right: 25px;
 }
 
-#middleBottomImage{
-    height: 51%;
-    background-image: url("firstPagePhotos/middleBottom.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat
+.navLinkButton {
+    color: #fff;
+    text-decoration: none;
 }
 
-#rightTopImage{
-    height: 62%;
-    background-image: url("firstPagePhotos/rightTop.jpg");
-    background-size: cover;
-    background-repeat: no-repeat
+/*Section involving the portfolio sample images*/
+
+#portfolioSamples {
+    width: 84vw;
+    margin: 0 auto;
+    min-height: 100px;
+    overflow: hidden;
+    background-color: bisque;
 }
 
-#rightBottomImage{
-    height: 38%;
-    background-image: url("firstPagePhotos/rightBottom.jpg");
-    background-size: cover;
-    background-repeat: no-repeat
+#leftSamples{
+    width: 28vw;
+    min-height: 100px;
+    overflow: hidden;
+    background-color: chartreuse;
+    float: left;
 }
 
-#footerContainer{
+#middleSamples{
+    width: 28vw;
+    min-height: 100px;
+    overflow: hidden;
+    background-color: rgb(255, 0, 179);
+    float: left;
+}
+
+#rightSamples{
+    width: 28vw;
+    min-height: 100px;
+    overflow: hidden;
+    background-color: rgb(0, 242, 255);
+    float: left;
+}
+
+#topLeftSample{
+    width: 28vw;
+    height: 37.1636vw;
+    background-color: cornflowerblue;
+}
+
+#bottomLeftSample{
+    width: 28vw;
+    height: 19.3455vw;
+    background-color: darkmagenta;
+}
+
+#topMiddleSample{
+    width: 28vw;
+    height: 28vw;
+    background-color: dimgray;
+}
+
+#bottomMiddleSample{
+    width: 28vw;
+    height: 28.5091vw;
+    background-color: fuchsia;
+}
+
+#topRightSample{
+    width: 28vw;
+    height: 35.28vw;
+    background-color: wheat;
+}
+
+#bottomRightSample{
+    width: 28vw;
+    height: 21.2291vw;
+    background-color: khaki;
+}
+
+/*Footer section*/
+
+#footerAboutMe{
+    width: 100vw;
+    min-height: 5px;
+    overflow: hidden;
     background-color: black;
+} 
+
+#aboutMe{
+    width: 84vw;
+    margin: 0 auto;
+    min-height: 5px;
+    overflow: hidden;
+    background-color: bisque;
 }
 
-#aboutBox{
-    height: 30vh;
-    background-color: black;
+#aboutLeft{
+    width: 28vw;
+    height: 21.2901vw;
+    background-color: brown;
+    float: left;
 }
 
-#footerBox{
-    height: 4vh;
+#aboutMiddle{
+    width: 28vw;
+    height: 21.2901vw;
+    background-color: aquamarine;
+    float: left;
+}
+
+#aboutRight{
+    width: 28vw;
+    height: 21.2901vw;
+    background-color: chocolate;
+    float: left;
+}
+
+#derekTag{
+    width: 84vw;
+    margin: 0 auto;
+    height: 4.0625vw;
+    background-color: blue;
+}
+
+#smallLogo{
+    width: 4.0625vw;
+    height: 4.0625vw;
+    background-color: salmon;
+    float: left;
+}
+
+#derekName{
+    height: 4.0625vw;
+    width: 16.1458vw;
+    background-color: powderblue;
+    float: right;
 }
