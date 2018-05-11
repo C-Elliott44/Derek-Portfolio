@@ -5,7 +5,7 @@ body{
 }
 #container{
     width: 100vw;
-    background-color: rgb(225, 159, 159);
+    background-color: #fff;
     margin: 0px;
     padding: 0px;
 }
@@ -87,36 +87,48 @@ body{
 }
 
 #topLeftSample{
+    background-image: url("./firstPagePhotos/leftTop.jpg");
+    background-size: cover;
     width: 28vw;
     height: 37.1636vw;
     background-color: cornflowerblue;
 }
 
 #bottomLeftSample{
+    background-image: url("./firstPagePhotos/leftBottom.jpg");
+    background-size: cover;
     width: 28vw;
     height: 19.3455vw;
     background-color: darkmagenta;
 }
 
 #topMiddleSample{
+    background-image: url("./firstPagePhotos/middleTop.jpg");
+    background-size: cover;
     width: 28vw;
     height: 28vw;
     background-color: dimgray;
 }
 
 #bottomMiddleSample{
+    background-image: url("./firstPagePhotos/middleBottom.jpeg");
+    background-size: cover;
     width: 28vw;
     height: 28.5091vw;
     background-color: fuchsia;
 }
 
 #topRightSample{
+    background-image: url("./firstPagePhotos/rightTop.jpg");
+    background-size: cover;
     width: 28vw;
     height: 35.28vw;
     background-color: wheat;
 }
 
 #bottomRightSample{
+    background-image: url("./firstPagePhotos/rightBottom.jpg");
+    background-size: cover;
     width: 28vw;
     height: 21.2291vw;
     background-color: khaki;
@@ -137,26 +149,39 @@ body{
     min-height: 5px;
     overflow: hidden;
     background-color: bisque;
+    text-align: center;
+}
+
+.firstWord{
+    color: #f65259;    
+}
+
+.secondWord{
+    color: #f65259;
+}
+
+.infoSection{
+    color: #fff;
 }
 
 #aboutLeft{
     width: 28vw;
     height: 21.2901vw;
-    background-color: brown;
+    background-color: black;
     float: left;
 }
 
 #aboutMiddle{
     width: 28vw;
     height: 21.2901vw;
-    background-color: aquamarine;
+    background-color: black;
     float: left;
 }
 
 #aboutRight{
     width: 28vw;
     height: 21.2901vw;
-    background-color: chocolate;
+    background-color: black;
     float: left;
 }
 
